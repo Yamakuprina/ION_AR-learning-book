@@ -51,10 +51,61 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Resources\Imported Assets\LeanTouch\Examples\Scripts\LeanCameraMove.cs" />
+     <Compile Include="Assets\Resources\Imported Assets\LeanTouch\Examples\Scripts\LeanCameraZoom.cs" />
+     <Compile Include="Assets\Resources\Imported Assets\LeanTouch\Examples\Scripts\LeanCanvasArrow.cs" />
+     <Compile Include="Assets\Resources\Imported Assets\LeanTouch\Examples\Scripts\LeanDestroy.cs" />
+     <Compile Include="Assets\Resources\Imported Assets\LeanTouch\Examples\Scripts\LeanFingerDown.cs" />
+     <Compile Include="Assets\Resources\Imported Assets\LeanTouch\Examples\Scripts\LeanFingerHeld.cs" />
+     <Compile Include="Assets\Resources\Imported Assets\LeanTouch\Examples\Scripts\LeanFingerLine.cs" />
+     <Compile Include="Assets\Resources\Imported Assets\LeanTouch\Examples\Scripts\LeanFingerSet.cs" />
+     <Compile Include="Assets\Resources\Imported Assets\LeanTouch\Examples\Scripts\LeanFingerSwipe.cs" />
+     <Compile Include="Assets\Resources\Imported Assets\LeanTouch\Examples\Scripts\LeanFingerTap.cs" />
+     <Compile Include="Assets\Resources\Imported Assets\LeanTouch\Examples\Scripts\LeanFingerTrail.cs" />
+     <Compile Include="Assets\Resources\Imported Assets\LeanTouch\Examples\Scripts\LeanFingerUp.cs" />
+     <Compile Include="Assets\Resources\Imported Assets\LeanTouch\Examples\Scripts\LeanOpenUrl.cs" />
+     <Compile Include="Assets\Resources\Imported Assets\LeanTouch\Examples\Scripts\LeanPlane.cs" />
+     <Compile Include="Assets\Resources\Imported Assets\LeanTouch\Examples\Scripts\LeanRotate.cs" />
+     <Compile Include="Assets\Resources\Imported Assets\LeanTouch\Examples\Scripts\LeanScale.cs" />
+     <Compile Include="Assets\Resources\Imported Assets\LeanTouch\Examples\Scripts\LeanScreenDepth.cs" />
+     <Compile Include="Assets\Resources\Imported Assets\LeanTouch\Examples\Scripts\LeanSelect.cs" />
+     <Compile Include="Assets\Resources\Imported Assets\LeanTouch\Examples\Scripts\LeanSelectable.cs" />
+     <Compile Include="Assets\Resources\Imported Assets\LeanTouch\Examples\Scripts\LeanSelectableBehaviour.cs" />
+     <Compile Include="Assets\Resources\Imported Assets\LeanTouch\Examples\Scripts\LeanSelectableGraphicColor.cs" />
+     <Compile Include="Assets\Resources\Imported Assets\LeanTouch\Examples\Scripts\LeanSelectableRendererColor.cs" />
+     <Compile Include="Assets\Resources\Imported Assets\LeanTouch\Examples\Scripts\LeanSelectableSpriteRendererColor.cs" />
+     <Compile Include="Assets\Resources\Imported Assets\LeanTouch\Examples\Scripts\LeanSpawnAt.cs" />
+     <Compile Include="Assets\Resources\Imported Assets\LeanTouch\Examples\Scripts\LeanTouchEvents.cs" />
+     <Compile Include="Assets\Resources\Imported Assets\LeanTouch\Examples\Scripts\LeanTranslate.cs" />
+     <Compile Include="Assets\Resources\Imported Assets\LeanTouch\Scripts\LeanFinger.cs" />
+     <Compile Include="Assets\Resources\Imported Assets\LeanTouch\Scripts\LeanGesture.cs" />
+     <Compile Include="Assets\Resources\Imported Assets\LeanTouch\Scripts\LeanSnapshot.cs" />
+     <Compile Include="Assets\Resources\Imported Assets\LeanTouch\Scripts\LeanTouch.cs" />
+     <Compile Include="Assets\Resources\Lesson Template\CamFollow.cs" />
+     <Compile Include="Assets\Resources\Lesson Template\CamFollowDesk.cs" />
+     <Compile Include="Assets\Resources\Lesson Template\UI_Contr.cs" />
      <Compile Include="Assets\Resources\Main Menu\Menu_111.cs" />
      <Compile Include="Assets\Resources\Main Menu\Simple Menu\Simple_Menu.cs" />
      <Compile Include="Assets\Resources\Main Menu\VR Menu\GyroControl.cs" />
      <Compile Include="Assets\Resources\Main Menu\VR Menu\VR_Menu.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
+     <None Include="Assets\Resources\Imported Assets\LeanTouch\Examples\Fonts\OFL.txt" />
+     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
+     <None Include="Assets\Resources\Imported Assets\Vuforia Stuff\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml" />
+     <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
+     <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
+     <None Include="Assets\Vuforia\Shaders\OutlineOpaque.shader" />
+     <None Include="Assets\Resources\Imported Assets\LeanTouch\Examples\Shaders\Skybox.shader" />
+     <None Include="Assets\Resources\Imported Assets\LeanTouch\Examples\Shaders\Smooth.shader" />
+     <None Include="Assets\Resources\Imported Assets\Vuforia Stuff\StreamingAssets\Vuforia\VuforiaMars_Object_OT.xml" />
+     <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
+     <None Include="Assets\Resources\Imported Assets\Vuforia Stuff\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
+     <None Include="Assets\StreamingAssets\Vuforia\ION_ARLearningBook.xml" />
+     <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
+     <None Include="Assets\Resources\Imported Assets\Vuforia Stuff\StreamingAssets\Vuforia\VuforiaMars_VuMark.xml" />
+     <None Include="Assets\Vuforia\Shaders\DepthContour.shader" />
+     <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>D:/Unity/Projects/ION_AR-learning-book 2.0/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>

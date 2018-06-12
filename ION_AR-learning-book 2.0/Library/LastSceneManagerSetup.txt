@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/222_VR.unity
+- path: Assets/Scenes/Lesson Template.unity
   isLoaded: 1
   isActive: 1
