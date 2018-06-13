@@ -105,6 +105,7 @@
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
      <None Include="Assets\Resources\Imported Assets\Vuforia Stuff\StreamingAssets\Vuforia\VuforiaMars_VuMark.xml" />
      <None Include="Assets\Vuforia\Shaders\DepthContour.shader" />
+     <None Include="Assets\Resources\Lesson Template\Outline.shader" />
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>D:/Unity/Projects/ION_AR-learning-book 2.0/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>

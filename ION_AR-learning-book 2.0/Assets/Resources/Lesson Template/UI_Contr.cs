@@ -27,8 +27,8 @@ public class UI_Contr : MonoBehaviour {
 	//public GameObject Paragraph8;
 	//public GameObject Paragraph9;
 
-	public GameObject SelectModel;
-
+	public GameObject SelectModel_First;
+	public GameObject SelectModel_Second;
 	public GameObject Desk;
 
 	public GameObject Model_First;
@@ -48,7 +48,10 @@ public class UI_Contr : MonoBehaviour {
 
 	void Start ()
 	{ 
-		UI_Filter_Text.SetActive (true); 
+		UI_Filter_Text.SetActive (true);
+
+		Model_First.SetActive(true); 
+		Model_Second.SetActive(false); 
 
 		PlayButton.SetActive (false);
 		MenuButton.SetActive(false);
@@ -97,12 +100,12 @@ public class UI_Contr : MonoBehaviour {
 		if (NeedStart == 0) { 
 			NeedStart++; 
 		} 
-		if (ButtonsCounter == 1) { 
+		/*if (ButtonsCounter == 1) { 
 			Model_First.SetActive (true); 
 		}
 		if (ButtonsCounter == 2) { 
 			Model_First.SetActive (true); 
-		}  
+		} */ 
 		if (ButtonsCounter == 3) { 
 			FirstLighted.SetActive (true); 
 		} 
@@ -199,14 +202,36 @@ public class UI_Contr : MonoBehaviour {
 
 
 
-	public void PauseMenuu (){ 
-		UI.SetActive (false); 
+	public void PauseMenuu ()
+	{ 
+		MenuButton.SetActive(false);
+		PlayButton.SetActive (false); 
+		PauseButton.SetActive (false);
+		NextButton.SetActive(false);
+		PrevButton.SetActive(false);
+
 		MenuPlane.SetActive (true); 
 	} 
-	public void PauseMenuuBack (){ 
-		MenuPlane.SetActive (false); 
-		UI.SetActive (true); 
+	public void PauseMenuuBack ()
+	{ 
+		MenuPlane.SetActive (false);
 
+		MenuButton.SetActive(true);
+
+		if(NeedStart == 1)
+		{
+			PlayButton.SetActive (false); 
+			PauseButton.SetActive (true);
+			NextButton.SetActive(true);
+			PrevButton.SetActive(true); 
+		}
+		if(NeedStart == 0)
+		{
+			PlayButton.SetActive (true); 
+			PauseButton.SetActive (false);
+			NextButton.SetActive(false);
+			PrevButton.SetActive(false); 
+		}
 	} 
 	public void PauseMenuuBacktoStart (){ 
 		//SceneManager.LoadScene (0); 
@@ -252,11 +277,17 @@ public class UI_Contr : MonoBehaviour {
 
 
 	
-	public void SelectedModel(){
-		SelectModel.SetActive (true);
+	public void SelectedModel_First(){
+		SelectModel_First.SetActive (true);
 	}
-	public void SelectedModelStop(){
-		SelectModel.SetActive (false);
+	public void SelectedModel_FirstStop(){
+		SelectModel_First.SetActive (false);
+	}
+	public void SelectedModel_Second(){
+		SelectModel_Second.SetActive (true);
+	}
+	public void SelectedModel_SecondStop(){
+		SelectModel_Second.SetActive (false);
 	}
 
 
@@ -265,7 +296,9 @@ public class UI_Contr : MonoBehaviour {
 	public void Checkk (){
 
 
-		SelectModel.SetActive (false);
+		SelectModel_First.SetActive (false);
+		SelectModel_Second.SetActive (false);
+
 		if ((ButtonsCounter == 1)&&(NeedStart>0)) { 
 
 			Light.SetActive (true); 
@@ -278,7 +311,9 @@ public class UI_Contr : MonoBehaviour {
 			//Paragraph8.SetActive (false);
 			Paragraph7.SetActive (false);
 			//Paragraph9.SetActive (false);
-			Paragraph1.SetActive (true); 
+			Paragraph1.SetActive (true);
+			Model_First.SetActive(false); 
+			Model_Second.SetActive(false);
 			FirstLighted.SetActive (false);
 			SecondLighted.SetActive (false);
 			ThirdLighted.SetActive (false); 
@@ -298,7 +333,9 @@ public class UI_Contr : MonoBehaviour {
 			//Paragraph9.SetActive (false);
 			Paragraph6.SetActive (false); 
 			Paragraph5.SetActive (false); 
-			Paragraph2.SetActive (true); 
+			Paragraph2.SetActive (true);
+			Model_First.SetActive(true);  
+			Model_Second.SetActive(false);
 			FirstLighted.SetActive (false);
 			SecondLighted.SetActive (false);
 			ThirdLighted.SetActive (false); 
@@ -318,7 +355,9 @@ public class UI_Contr : MonoBehaviour {
 			//Paragraph9.SetActive (false);
 			Paragraph2.SetActive (false); 
 			Paragraph5.SetActive (false); 
-			Paragraph3.SetActive (true); 
+			Paragraph3.SetActive (true);
+			Model_First.SetActive(true);
+			Model_Second.SetActive(false);  
 			SecondLighted.SetActive (false);
 			ThirdLighted.SetActive (false);
 			FirstLighted.SetActive (true); 
@@ -339,6 +378,8 @@ public class UI_Contr : MonoBehaviour {
 			Paragraph6.SetActive (false); 
 			Paragraph5.SetActive (false); 
 			Paragraph4.SetActive (true); 
+			Model_First.SetActive(true);
+			Model_Second.SetActive(false); 
 			FirstLighted.SetActive (false);
 			ThirdLighted.SetActive (false);
 			SecondLighted.SetActive (true); 
@@ -359,7 +400,9 @@ public class UI_Contr : MonoBehaviour {
 			//Paragraph9.SetActive (false);
 			Paragraph4.SetActive (false); 
 			Paragraph6.SetActive (false); 
-			Paragraph5.SetActive (true); 
+			Paragraph5.SetActive (true);
+			Model_Second.SetActive(true);
+			Model_First.SetActive(false);  
 			FirstLighted.SetActive (false);
 			SecondLighted.SetActive (false);
 			ThirdLighted.SetActive (false); 
@@ -380,7 +423,9 @@ public class UI_Contr : MonoBehaviour {
 			Paragraph2.SetActive (false); 
 			Paragraph3.SetActive (false); 
 			Paragraph4.SetActive (false); 
-			Paragraph6.SetActive (true); 
+			Paragraph6.SetActive (true);
+			Model_Second.SetActive(true);
+			Model_First.SetActive(false);   
 			FirstLighted.SetActive (false);
 			SecondLighted.SetActive (false);
 			ThirdLighted.SetActive (true); 
@@ -402,7 +447,9 @@ public class UI_Contr : MonoBehaviour {
 			Paragraph3.SetActive (false); 
 			Paragraph4.SetActive (false); 
 			Paragraph6.SetActive (false);
-			Paragraph7.SetActive (true); 
+			Paragraph7.SetActive (true);
+			Model_Second.SetActive(false);
+			Model_First.SetActive(false);   
 			FirstLighted.SetActive (false);
 			SecondLighted.SetActive (false);
 			ThirdLighted.SetActive (false); 

@@ -6,12 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/111.unity
+    path: Assets/Scenes/Lesson Template.unity
+    guid: 786f652758fe701468748d424f817970
+  - enabled: 1
+    path: Assets/Scenes/Menu/111.unity
     guid: 32a96e9fcd9f9604294d56f057cf0eb1
   - enabled: 1
-    path: Assets/Scenes/222_Simple.unity
+    path: Assets/Scenes/Menu/222_Simple.unity
     guid: aeab2793555ac92429bc48f5b6664e01
   - enabled: 1
-    path: Assets/Scenes/222_VR.unity
+    path: Assets/Scenes/Menu/222_VR.unity
     guid: 6865468dd7d9922428fc1c85ab8d4884
   m_configObjects: {}
