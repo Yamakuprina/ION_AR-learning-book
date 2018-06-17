@@ -1,11 +1,8 @@
 Android
 PlayerPath?
-D:/Unity/Projects/LessonTemplate.apk
+D:/Unity/Projects/FinalLessonTemplate.apk
 SceneListBegin?
 Assets/Scenes/Lesson Template.unity
-Assets/Scenes/Menu/111.unity
-Assets/Scenes/Menu/222_Simple.unity
-Assets/Scenes/Menu/222_VR.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 cf455f7a806648c6ed4c7d3e3f8a0e03 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -21,7 +18,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 607d64d2c4bc76ac9876e6f7b9cc7edf UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 b75fdd29c3f372c6b79e9b343a53e3d1 Assembly-CSharp.dll:Lean.Touch.LeanFingerDown
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Menu_111
-5710e8491e2ff597245af26abf6bdfa0 Assembly-CSharp.dll:.UI_Contr
+4ec05a0bf7bed622e750d6b0480dd349 Assembly-CSharp.dll:.UI_Contr
 fced93f57cf9f67382a2cd076c5f16b5 Assembly-CSharp.dll:Lean.Touch.LeanFingerLine
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
@@ -236,6 +233,7 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
+3c451baac6b61f5fba86287c450611a7 Assembly-CSharp.dll:Lean.Touch.LeanRotateOld
 493c211ab85ec2db8c090d3ba6c0a013 Assembly-CSharp.dll:Lean.Touch.LeanSelectableSpriteRendererColor
 e8e8f0e750145acab4381d7e2fa841be Assembly-CSharp.dll:Lean.Touch.LeanFingerTap
 b69fb5034809d4cbe977f438123a337f Assembly-CSharp.dll:Lean.Touch.LeanCameraZoom
@@ -314,3 +312,4 @@ a924c90a95cf65003f662aa5e30abb6b Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 01e6f145049f3a676df6dc247eabf176 Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 3d1b89310e77c34bc0c8d7132231345c Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
+8ba5ab7967cd8e0987b05bcfa433c5fe Assembly-CSharp.dll:.LookAtCamera

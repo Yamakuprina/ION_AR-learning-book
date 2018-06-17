@@ -29,6 +29,7 @@ public class UI_Contr : MonoBehaviour {
 
 	public GameObject SelectModel_First;
 	public GameObject SelectModel_Second;
+	public GameObject SelectDesk;
 	public GameObject Desk;
 
 	public GameObject Model_First;
@@ -50,7 +51,7 @@ public class UI_Contr : MonoBehaviour {
 	{ 
 		UI_Filter_Text.SetActive (true);
 
-		Model_First.SetActive(true); 
+		Model_First.SetActive(false); 
 		Model_Second.SetActive(false); 
 
 		PlayButton.SetActive (false);
@@ -277,17 +278,33 @@ public class UI_Contr : MonoBehaviour {
 
 
 	
-	public void SelectedModel_First(){
+	public void SelectedModel()
+	{
+		if (Model_First.activeInHierarchy == true)
+		{
 		SelectModel_First.SetActive (true);
-	}
-	public void SelectedModel_FirstStop(){
-		SelectModel_First.SetActive (false);
-	}
-	public void SelectedModel_Second(){
+		}
+		if (Model_Second.activeInHierarchy == true)
+		{
 		SelectModel_Second.SetActive (true);
+		}
 	}
-	public void SelectedModel_SecondStop(){
+	public void SelectedModelStop()
+	{
+		if (Model_First.activeInHierarchy == true)
+		{
+		SelectModel_First.SetActive (false);
+		}
+		if (Model_Second.activeInHierarchy == true)
+		{
 		SelectModel_Second.SetActive (false);
+		}
+	}
+	public void SelectedDesk(){
+		SelectDesk.SetActive (true);
+	}
+	public void SelectedDeskStop(){
+		SelectDesk.SetActive (false);
 	}
 
 

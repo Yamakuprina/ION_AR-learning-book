@@ -77,12 +77,14 @@
      <Compile Include="Assets\Resources\Imported Assets\LeanTouch\Examples\Scripts\LeanSpawnAt.cs" />
      <Compile Include="Assets\Resources\Imported Assets\LeanTouch\Examples\Scripts\LeanTouchEvents.cs" />
      <Compile Include="Assets\Resources\Imported Assets\LeanTouch\Examples\Scripts\LeanTranslate.cs" />
+     <Compile Include="Assets\Resources\Imported Assets\LeanTouch\LeanRotateOld.cs" />
      <Compile Include="Assets\Resources\Imported Assets\LeanTouch\Scripts\LeanFinger.cs" />
      <Compile Include="Assets\Resources\Imported Assets\LeanTouch\Scripts\LeanGesture.cs" />
      <Compile Include="Assets\Resources\Imported Assets\LeanTouch\Scripts\LeanSnapshot.cs" />
      <Compile Include="Assets\Resources\Imported Assets\LeanTouch\Scripts\LeanTouch.cs" />
      <Compile Include="Assets\Resources\Lesson Template\CamFollow.cs" />
      <Compile Include="Assets\Resources\Lesson Template\CamFollowDesk.cs" />
+     <Compile Include="Assets\Resources\Lesson Template\LookAtCamera.cs" />
      <Compile Include="Assets\Resources\Lesson Template\UI_Contr.cs" />
      <Compile Include="Assets\Resources\Main Menu\Menu_111.cs" />
      <Compile Include="Assets\Resources\Main Menu\Simple Menu\Simple_Menu.cs" />
